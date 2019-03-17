@@ -122,10 +122,10 @@ public class MainActivity extends AppCompatActivity implements BluetoothSPP.Blue
                         state = intent.getIntExtra(BluetoothDevice.EXTRA_BOND_STATE, -1);
                         switch (state) {
                             case BluetoothDevice.BOND_NONE:
-                                Log.d("aaa", "BOND_NONE 删除配对");
+                                Log.d("aaaaa", "BOND_NONE 删除配对");
                                 break;
                             case BluetoothDevice.BOND_BONDING:
-                                Log.d("aaa", "BOND_BONDING 正在配对");
+                                Log.d("aaaaa", "BOND_BONDING 正在配对");
                                 break;
                             case BluetoothDevice.BOND_BONDED:
                                 Log.d("aaaaa", "BOND_BONDED 配对成功");
