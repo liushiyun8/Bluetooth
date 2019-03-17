@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothSPP.Blue
                                 Log.d("aaa", "BOND_BONDING 正在配对");
                                 break;
                             case BluetoothDevice.BOND_BONDED:
-                                Log.d("aaa", "BOND_BONDED 配对成功");
+                                Log.d("aaaa", "BOND_BONDED 配对成功");
                                 bt.connect(device.getAddress());
                                 break;
                         }
